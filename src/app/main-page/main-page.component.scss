@@ -1,0 +1,45 @@
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.card-head {
+  width: 50%;
+  top: 10%;
+  left: 30%;
+}
+
+.card-head-text {
+  font-weight: 400;
+  font-size: 250%;
+}
+
+.shadow{
+  box-shadow:
+  4.2px 2.8px 2.2px rgba(0, 0, 0, 0.042),
+  10.2px 6.7px 5.3px rgba(0, 0, 0, 0.061),
+  19.2px 12.5px 10px rgba(0, 0, 0, 0.075),
+  34.2px 22.3px 17.9px rgba(0, 0, 0, 0.089),
+  63.9px 41.8px 33.4px rgba(0, 0, 0, 0.108),
+  153px 100px 80px rgba(0, 0, 0, 0.15)
+;
+}
+
+.card-head-products {
+  display: flex;
+  justify-content: space-between;
+  width: 24%;
+  top: 40%;
+  left: 20%;
+}
+
+.alinha-cards {
+  margin-right: 30%;
+}
+
+li {
+  list-style: none;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
